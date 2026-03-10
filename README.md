@@ -95,16 +95,14 @@ This prediction is based on the trained **machine learning model**.
 ## Application Screenshots
 
 ### Input Interface
+![Input Page](predicted_output_images/application_interface.png)
 
-![Input Page](predicted output images/application_interface.png)
+### Prediction Output - Approved
+![Approved Prediction](predicted_output_images/approved_prediction.png)
 
-### Prediction Output
+### Prediction Output - Rejected
+![Rejected Prediction](predicted_output_images/rejected_prediction.png)
 
-![Approved Prediction](predicted output images/approved_prediction.png)
-
-### Prediction Output
-
-![Rejected Prediction](predicted output images/rejected_prediction.png)
 
 
 
