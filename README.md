@@ -73,30 +73,55 @@ The goal of this project is to develop a **machine learning-based loan approval 
   
 ## How to Run the Project
 
-**Step 1:** Clone the repository  
+## How to Run the Project
+
+### Step 1: Clone the Repository
+Download the project from GitHub to your local machine:
+
 ```bash
 git clone https://github.com/Asrithalalam/Loan_Approval_Prediction.git
 
-**Step 2:** Navigate to Project Folder
+Explanation:
 
-After cloning the repository, you need to move into the project folder to run commands inside it.
+git clone → copies the entire project repository from GitHub.
 
-```bash
+The project files will be saved in a new folder named Loan_Approval_Prediction.
+
+### Step 2: Navigate to the Project Folder
+
+Move into the cloned project folder:
+
 cd Loan_Approval_Prediction
 
-**Step 3:** Install Required Libraries
+Explanation:
+
+cd → change directory.
+
+After this, your terminal points to the project folder so all commands run in the correct location.
+
+Step 3: Install Required Libraries
 
 Install all Python dependencies needed to run the project:
 
-```bash
 pip install -r requirements.txt
 
-**Step 4:** Run the Streamlit App
+Explanation:
+
+Installs all Python packages required for the project automatically.
+
+Step 4: Run the Streamlit App
 
 Launch the interactive web application:
 
-```bash
 streamlit run app.py
+
+Explanation:
+
+streamlit run → starts the Streamlit server.
+
+app.py → the main Python script containing the web app.
+
+After running this command, a browser window will open showing the Loan Approval Prediction interface.
 
 ## Application Interface
 
