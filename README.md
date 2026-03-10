@@ -7,11 +7,12 @@ The model is trained on applicant financial and demographic details such as inco
 
 A Streamlit web application is developed to allow users to enter applicant details and instantly receive the loan approval prediction.
 
-##Problem Statement
+## Problem Statement
 
 Financial institutions receive thousands of loan applications. Manually analyzing each application is time-consuming and may lead to inconsistent decisions.
 
-The goal of this project is to develop a machine learning-based loan approval prediction system that can assist banks and financial institutions in making faster and more accurate decisions.
+The goal of this project is to develop a **machine learning-based loan approval prediction system** that can assist banks and financial institutions in making faster and more accurate decisions.
+
 
 ## Features
 - Data preprocessing and feature encoding
@@ -42,94 +43,96 @@ The goal of this project is to develop a machine learning-based loan approval pr
 - Luxury Assets Value
 - Bank Asset Value
 
-##Project Workflow
+## Project Workflow
 
-1.Data Collection
+### 1. Data Collection
+- Load the loan approval dataset.
 
-- Load loan approval dataset
+### 2. Data Preprocessing
+- Handle categorical variables.
+- Encode categorical values.
+- Perform feature scaling.
 
-2.Data Preprocessing
+### 3. Exploratory Data Analysis (EDA)
+- Visualize data using plots and charts.
+- Perform correlation analysis to understand feature relationships.
 
-- Handle categorical variables
+### 4. Model Training
+- Train a machine learning model.
+- Evaluate model performance and accuracy.
 
-- Encode categorical values
+### 5. Model Saving
+- Save the trained model using **Pickle** for later use.
 
-- Feature scaling
+### 6. Web Application Development
+- Build an interactive UI using **Streamlit**.
 
-3.Exploratory Data Analysis
-
-- Data visualization
-
-- Correlation analysis
-
-4.Model Training
-
-- Train machine learning model
-
-- Evaluate model accuracy
-
-5.Model Saving
-
-- Save trained model using Pickle
-
-6.Web Application Development
-
-- Build interactive UI using Streamlit
-
-7.Prediction
-
-- User enters details
-
-- Model predicts loan approval status
-
+### 7. Prediction
+- User enters loan applicant details.
+- Model predicts the loan approval status.
+  
 ## How to Run the Project
-Step 1- Clone the repository: git clone https://github.com/Asrithalalam/Loan_Approval_Prediction.git
 
-Step 2- Navigate to project folder: cd Loan_Approval_Prediction
+**Step 1:** Clone the repository  
+```bash
+git clone https://github.com/Asrithalalam/Loan_Approval_Prediction.git
 
-Step 3- Install required libraries: pip install -r requirements.txt
+**Step 2:** Navigate to Project Folder
 
-Step 4- Run the Streamlit app: streamlit run app.py
+After cloning the repository, you need to move into the project folder to run commands inside it.
 
-##Application Interface
+```bash
+cd Loan_Approval_Prediction
+
+**Step 3:** Install Required Libraries
+
+Install all Python dependencies needed to run the project:
+
+```bash
+pip install -r requirements.txt
+
+**Step 4:** Run the Streamlit App
+
+Launch the interactive web application:
+
+```bash
+streamlit run app.py
+
+## Application Interface
 
 The Streamlit application allows users to input applicant details such as:
 
-🔸Income
+- Income
+- Loan amount
+- Loan term
+- CIBIL score
+- Asset values
+- Education status
+- Employment status
 
-🔸Loan amount
+After submitting the details, the model predicts whether the loan will be **approved** or **rejected**.
 
-🔸Loan term
-
-🔸CIBIL score
-
-🔸Asset values
-
-🔸Education status
-
-🔸Employment status
-
-After submitting the details, the model predicts whether the loan will be approved or rejected.
-
-##Model Output
+## Model Output
 
 The system provides one of the following predictions:
 
--->Loan Approved
-
--->Loan Rejected
+- Loan Approved
+- Loan Rejected
 
 This prediction is based on the trained machine learning model.
 
 ## Application Screenshots
 
 ### Input Interface
+
 ![Input Page](predicted output images/application_interface.png)
 
 ### Prediction Output
+
 ![Approved Prediction](predicted output images/approved_prediction.png)
 
 ### Prediction Output
+
 ![Rejected Prediction](predicted output images/rejected_prediction.png)
 
 
