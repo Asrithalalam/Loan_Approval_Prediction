@@ -70,81 +70,27 @@ The goal of this project is to develop a **machine learning-based loan approval 
 ### 7. Prediction
 - User enters loan applicant details.
 - Model predicts the loan approval status.
-  
-## How to Run the Project
-
-## How to Run the Project
-
-### Step 1: Clone the Repository
-Download the project from GitHub to your local machine:
-
-```bash
-git clone https://github.com/Asrithalalam/Loan_Approval_Prediction.git
-
-Explanation:
-
-git clone → copies the entire project repository from GitHub.
-
-The project files will be saved in a new folder named Loan_Approval_Prediction.
-
-### Step 2: Navigate to the Project Folder
-
-Move into the cloned project folder:
-
-cd Loan_Approval_Prediction
-
-Explanation:
-
-cd → change directory.
-
-After this, your terminal points to the project folder so all commands run in the correct location.
-
-Step 3: Install Required Libraries
-
-Install all Python dependencies needed to run the project:
-
-pip install -r requirements.txt
-
-Explanation:
-
-Installs all Python packages required for the project automatically.
-
-Step 4: Run the Streamlit App
-
-Launch the interactive web application:
-
-streamlit run app.py
-
-Explanation:
-
-streamlit run → starts the Streamlit server.
-
-app.py → the main Python script containing the web app.
-
-After running this command, a browser window will open showing the Loan Approval Prediction interface.
 
 ## Application Interface
-
 The Streamlit application allows users to input applicant details such as:
 
-- Income
-- Loan amount
-- Loan term
-- CIBIL score
-- Asset values
-- Education status
-- Employment status
+- Income  
+- Loan amount  
+- Loan term  
+- CIBIL score  
+- Asset values  
+- Education status  
+- Employment status  
 
 After submitting the details, the model predicts whether the loan will be **approved** or **rejected**.
 
 ## Model Output
-
 The system provides one of the following predictions:
 
-- Loan Approved
-- Loan Rejected
+- Loan Approved  
+- Loan Rejected  
 
-This prediction is based on the trained machine learning model.
+This prediction is based on the trained **machine learning model**.
 
 ## Application Screenshots
 
